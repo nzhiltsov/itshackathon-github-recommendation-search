@@ -1,0 +1,28 @@
+[
+{
+  "id": "gltronred/issue-recommendation-crawler/1",
+  "owner": "gltronred",
+  "project": "issue-recommendation-crawler",
+  "number": 1,
+  "title": "Some Title, e.g. Lord",
+  "body": "Fat body",
+  "languages": [
+    "haskell",
+    "bash",
+    "unknown"],
+  "frameworks": [
+    "aeson",
+    "github" ],
+  "size": 40,
+  "stars": 5,
+  "watches": 40,
+  "discussion": 100500,
+  "quality": 99.9,
+  "due": "2013-08-18T16:00:55.581Z",
+  "discusses": 10,
+  "tags": [
+    "bug",
+    "ui",
+    "@high"]
+}
+]

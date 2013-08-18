@@ -15,7 +15,8 @@ resolvers ++= Seq(
   "releases"  at "http://oss.sonatype.org/content/repositories/releases",
   "Twitter Maven" at "http://maven.twttr.com",
    "Twitter SVN Maven" at "https://svn.twitter.biz/maven-public",
-   "Clojars Repository" at "http://clojars.org/repo"
+   "Clojars Repository" at "http://clojars.org/repo",
+   "Restlet" at "http://maven.restlet.org"
 )
 
 
@@ -37,9 +38,7 @@ libraryDependencies += "org.jsoup" % "jsoup" % "1.7.2"
 
 // Apache Solr dependencies
 
-libraryDependencies ++= Seq(
-  "com.github.seratch" %% "scalikesolr" % "[4.3,)"
-)
+libraryDependencies += "org.apache.solr" % "solr" % "4.4.0"
 
 parallelExecution in Test := false
 
